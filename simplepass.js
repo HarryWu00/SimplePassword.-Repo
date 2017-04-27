@@ -16,9 +16,9 @@ function checkString(str){
 function getString(str){
     try{
         str = checkString(str);
-        catch (e){e}{
-            console.log(e.message);
-            getString(str);
-        }
+      }
+          catch(e){
+            console.log(e.message)
+              getString(str);
+          }
     }
-}
